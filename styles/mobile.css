@@ -1,0 +1,83 @@
+@media (max-width: 800px) {
+  .playground {
+    flex-direction: column;
+  }
+
+  .playerground {
+    padding: 45px;
+  }
+
+  .playerground.one {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .playerground.two {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+  }
+
+  .player-label {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .score {
+    font-size: 50px;
+  }
+
+  .current {
+    margin: 20px 0px;
+  }
+
+  body {
+    height: 900px;
+    padding: 0px;
+  }
+
+  .new-game {
+    margin-top: -190px;
+    margin-bottom: 290px;
+  }
+
+  .dice {
+    margin: 0;
+  }
+
+  .roll-dice {
+    margin: 0;
+    margin-right: 30px;
+    max-width: 70px;
+  }
+
+  .hold {
+    margin-left: 30px;
+  }
+
+  .game-buttons {
+    flex-direction: row;
+    margin: 0;
+    padding-bottom: 150px;
+    padding-right: 0px;
+  }
+
+  nav {
+    height: 900px;
+  }
+
+  .help-open {
+    top: 10px;
+    right: 10px;
+  }
+
+  .help-block {
+    top: 30%;
+    left: 5%;
+  }
+
+  .current.two {
+    background-color: rgb(64, 25, 78);
+  }
+}

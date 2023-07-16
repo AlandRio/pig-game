@@ -1,0 +1,60 @@
+.playground {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4);
+}
+
+.playerground {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 234, 235);
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+}
+
+.playerground.one {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.playerground.two {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.active {
+  opacity: 1;
+}
+
+.player-label {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.score {
+  color: rgb(122, 67, 101);
+  font-size: 100px;
+}
+
+.current {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(122, 67, 101);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 80px;
+}
+
+.current-label {
+  font-size: 30px;
+}
+
+.current-score {
+  font-size: 50px;
+}

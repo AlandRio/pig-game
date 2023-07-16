@@ -1,0 +1,63 @@
+.help-open {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  z-index: 100;
+}
+
+.help-close {
+  position: relative;
+  top: 0;
+  right: 0;
+  max-height: 45px;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.new-game {
+  margin-bottom: 100px;
+}
+
+.dice {
+  width: 80px;
+  box-shadow: 3px 10px 50px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 50px;
+}
+
+.roll-dice {
+  margin-bottom: 50px;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 3px 10px 50px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
