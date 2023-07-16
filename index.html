@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Game</title>
+    <script src="scripts/script.js" defer></script>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/buttons.css" rel="stylesheet" />
+    <link href="styles/players.css" rel="stylesheet" />
+    <link href="styles/mobile.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="playground">
+        <div class="playerground one active">
+          <p class="player-label one">Player 1</p>
+          <p class="score one">0</p>
+          <div class="current one">
+            <p class="current-label one">Current</p>
+            <p class="current-score one">0</p>
+          </div>
+        </div>
+        <div class="playerground two">
+          <p class="player-label two">Player 2</p>
+          <p class="score two">0</p>
+          <div class="current two">
+            <p class="current-label two">Current</p>
+            <p class="current-score two">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn help-open">How to play?</button>
+    <div class="help-block hidden-complete">
+      <p class="help-info">
+        Each player rolls the dice if you get a 1 your turn ends and if you hold
+        you will keep your score till the end. The first player to collect a
+        score of 100 wins!
+      </p>
+      <button class="btn help-close">X</button>
+    </div>
+
+    <nav>
+      <button class="btn new-game">New Game</button>
+      <div class="game-buttons">
+        <button class="btn roll-dice">Roll Dice</button>
+        <img class="dice hidden" src="dice/dice-1.png" />
+        <button class="btn hold">Hold</button>
+      </div>
+    </nav>
+  </body>
+</html>
